@@ -1,0 +1,214 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;1,100&display=swap');
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family: 'Poppins', sans-serif;
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+}
+html,body{
+    width:100%;
+    height:100%;
+}
+#header{
+    position: relative;
+    width:100%;
+    height:100vh;
+    background-color: black;
+}
+#navbar{
+    display: flex;
+    color:white;
+    align-items: center;
+    justify-content: space-between;
+    padding:2% 5%;
+
+}
+a {
+    text-decoration: none;
+  }
+#navbar ul{
+    width:50%;
+     display: flex;
+     align-items: center;
+     justify-content: space-between;
+}
+#navbar ul li a{
+    transition: .5s ease-in-out;
+}
+#navbar ul li a:hover{
+    color:#888;
+}
+#navbar a{
+    color:white;
+    text-decoration: none;
+    font-size:20px;
+    font-weight: 200;
+}
+
+#Middle-content{
+    color:white;
+    margin:100px 0 0 40px;
+    
+}
+#Middle-content h5{
+    opacity:0.7;
+    font-size: 9vw;
+    width:fit-content;   
+}
+#design{
+    width: fit-content;
+    text-align: right;
+}
+#unique{
+    margin-left:120px;
+}
+#design p{
+    
+    /* width:fit-content; */
+    align-items: right;    
+}
+#right-side-content{
+    text-align:right;
+    margin-right:40px;
+    line-height: 1.5;
+}
+#headerfooter{
+    padding:0 20px;
+    width:94%;
+    position: absolute;
+    bottom:3%;
+    margin-right:35px;
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#headerfooter a{
+    color:white;
+    text-decoration: none;
+}
+
+#arrows img{
+    width:25px;
+    height:25px;
+    background-color:white;
+    border-radius: 50%;
+}
+
+/* Image Hover's CSS is done below  */
+
+#img-hover{
+    padding-top: 8vw;
+    width:100%;
+    height:170vh;
+    background-color: black;
+}
+.element{
+    cursor: pointer;
+    margin:0 6.5vw 3.25vw 9.75vw;
+    display: flex;
+    color:white;
+    border-top: 1px solid #888;
+    align-items: center;
+    justify-content: space-between;
+    transition: .5s ease-in-out;
+}
+.element:hover{
+    color:black;
+    opacity: 1;
+    background-color: rgb(220, 203, 203);
+    transform: scale(1.05);
+}
+.branch-arrow{
+    width:50px;
+    height: 50px;
+    background-color: #888;
+    border-radius: 50%;
+}
+.element h1{
+    opacity:0.7;
+    font-size: 6vw;
+    text-transform: uppercase;
+}
+
+/* About me section in the website  */
+
+#about-me{
+    width: 100%;
+    height: 100vh;
+    background-color: black;
+    color:white;
+}
+.about-heading{
+    opacity:0.7;
+    color:white;
+    font-size: 5vw;
+    text-align: center;
+    padding-bottom: 2vw;
+}
+.mid{
+    width:fit-content;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    gap:2vw;
+    /* flex-wrap: wrap; */
+}
+.about-us{
+    border-right: 1px solid #888;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.about-us p{
+    padding: 2.5vw;
+}
+.about-us a{
+    text-decoration: none;
+    color:white;
+    background-color: #888;
+    padding:5px;
+    border-radius:15px;
+}
+.user-img{
+    width:9.5vw;
+    height:9.5vw;
+    border-radius:50%;
+}
+
+/* Footer's CSS starts from here  */
+
+#footer{
+    padding:2vw 0 0 0;
+    width:100%;
+    background-color:black;
+    color:white;
+    padding-bottom: 2vw;
+}
+.foot{
+    width:100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#footer-left{
+    display: flex;
+    width:20%;
+    justify-content: space-around;
+}
+
+#footer-right{
+    display: flex;
+    width:40%;
+    align-items: center;
+    justify-content: space-around;
+}
+#footer-right a{
+    text-decoration: none;
+    color: white;
+}
+
+
+
